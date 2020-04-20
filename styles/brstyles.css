@@ -1,0 +1,318 @@
+/* Body & General Rules */
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f6f5e0;
+  font-weight: 400;
+}
+
+body {
+  margin: 0px;
+}
+
+main{
+  padding-bottom: 100px;
+}
+
+h1, h2, h3, li, a {
+  font-family: 'Rum Raisin', sans-serif;
+} 
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+/* Header Rules */
+
+li, a {
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #4c7a34;
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px 10px;
+}
+
+.logo-image{
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  color: #4c7a34;
+}
+
+.nav-links li a:hover {
+  color: #203316;
+  border-bottom: 2px solid #203316;
+}
+
+/* HOME PAGE ----- VIDEO Styling */
+
+.video-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.video-content h2 {
+  text-align: center;
+  font-size: 4rem;
+  color: #4c7a34;
+  background: #fff;
+  margin: 15px;
+  padding: 10px;
+  z-index: 1;
+}
+.video-background {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.6;
+}
+
+/* HOME PAGE -------- Div Favorite Recipe Styling */
+
+.favorite-recipe, .video-recipe {
+  margin: 50px 15px;
+}
+
+.favorite-recipe-image {
+  float: left;
+  padding: 10px 15px 15px 5px;
+}
+
+.favorite-recipe-content {
+  color: #4c7a34;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.favorite-recipe-content p, .video-recipe-content p {
+  color: black;
+  font-size: 30px;
+  align-items: center;
+}
+
+.favorite-recipe-image:hover {
+  opacity: 0.5;
+}
+
+.video-recipe-image {
+  float: right;
+  padding: 15px 5px 10px 15px;
+}
+
+.video-recipe-content {
+  color: #4c7a34;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: right;
+}
+
+/* Footer Styling */
+
+footer {
+  font-size: 20px;
+  color: #203316;
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  border-top: 3px solid #203316;
+  padding: 15px;
+}
+
+/* Styling of RECIPES Page */
+
+.main-recipes {
+  text-align: center;
+}
+
+.display-recipes {
+  display: inline-block;
+  background-color: #dbd89d;
+  padding: 15px 15px;
+  margin: 40px 10px;
+  vertical-align: top;
+}
+
+.display-recipes h3 {
+  background-color: #dbd89d;
+  font-size: 25px;
+  color: #4c7a34;
+}
+
+.display-recipes:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+/* Styling of Recipe-Cheese-Bread Page */
+
+.recipe-heading{
+  font-size: 35px;  
+  color: #000000;
+  text-align: center;
+}
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 25px;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 35%;
+  float: right;
+}
+
+.content-table thead tr {
+  background-color: #73a05b;
+  color: #000000;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.content-table th, .content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #c4e9b0;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #73a05b;
+}
+
+/* Styling of Recipe-Cheese-Bread Page ----  DIRECTIONS */
+
+.directions {
+  font-size: 20px;
+  margin: 25px 15px;
+  padding: 15px 10px;
+  width: 55%;
+  float: left;
+  vertical-align: top;
+}
+
+.directions-heading {
+  font-size: 30px;
+}
+
+/* Styling of PECULIARITIES PAGE */
+
+.peculiarite-info {
+  background-color: #dbd89d;
+  margin: 0px 10px 20px 10px;
+  padding: 10px 15px;  
+}
+
+.peculiarite-info-image {
+  float: right;
+  padding: 10px 10px 5px 10px;
+}
+
+.peculiarite-info-content h2 {
+  color: #4c7a34;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.peculiarite-info-content h3 {
+  font-size: 37px;
+}
+
+.peculiarite-info-content p {
+  color: black;
+  font-size: 25px;
+  align-items: center;
+}
+
+/* Styling of CONTACT PAGE */
+
+.form-display {
+  position: relative;
+  color: black;
+  font-size: 25px;
+  padding: 20px;
+  display: block;
+}
+.contact-form {
+  background-color: #dbd89d;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px 1px;
+}
+
+.input-fields {
+  width: 100%;
+  margin: 0px 20px 0px 0px;
+  padding-bottom: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input, textarea {
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 100%;
+}
+
+input, textarea {
+  outline: none;
+  border: 1px solid rgb(76, 122, 52);
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 4px rgba(25, 71, 1, 0.9);  
+  border: 1px solid rgb(76, 122, 52);
+} 
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;  
+  background-color: #4c7a34;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
